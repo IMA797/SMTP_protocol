@@ -10,12 +10,12 @@ SMTP_SERVER = "smtp.mail.ru"
 SMTP_PORT = 587
 LOGIN = "magomed.ima797@mail.ru"
 # Пароль приложений
-PASSWORD = "U1ub9EcWvN2Tqi4NA1Xk"
+PASSWORD = "Здесь_нужен_пароль"
 
 # Данные письма
 sender_name = "Исаев Магомед Абдурахманович"
 sender_group = "М3О-111БВ-24"
-recipient_email = "vasya_asus_pupkin@mail.ru"
+recipient_email = "Почта, на которую отправляются письма"
 recipient_name = "Соколов Андрей Дмитриевич"
 recipient_group = "М3О-111БВ-24"
 
@@ -48,3 +48,4 @@ try:
     print("Письмо отправлено!")
 except Exception as e:
     print(f"Ошибка: {e}")
+
